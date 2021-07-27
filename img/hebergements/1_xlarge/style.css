@@ -1,0 +1,48 @@
+    .flexBtw{ 
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.flexAro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ColorlinkOne{
+    color: #0065FC;
+}
+
+
+.ColorlinkTwo {
+    color: black  
+}
+
+
+.Colorlinkthree{
+    color: #0065FC
+}
+
+
+.Filter-class{
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.SizeLink{
+    width: 45%;
+}
+
+.DecorationNo{
+    text-decoration: none;
+}
+
+
+
+
+.flexCenter1{
+    justify-content: flex-end;
+}
+
