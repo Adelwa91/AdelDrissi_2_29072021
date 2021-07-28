@@ -1,0 +1,155 @@
+/*HEADER*/
+
+p{ font-family: raleway;
+
+}
+
+
+.flexBtwn{  
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+ }
+
+.flexAro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Centerflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*NAVIGATION*/
+
+.LinkAccomode{
+    color: #0065FC;
+
+}
+
+.LinkActivity {
+    color: black 
+}
+
+
+.LinkRegister{
+    color: #0065FC
+}
+
+.SizeLink{
+    width: 45%;
+}
+
+.SizeLinkNav{
+    width: 100px;
+    height: 99px;
+}
+
+.DecorationNo{
+    text-decoration: none;
+}
+
+.BorderNav{
+    border-top: 2px solid;
+    color: #0065FC;
+    width: 110px;
+
+    
+}
+
+/* FILTRES */
+
+.margfilter{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+}
+
+.titilefilter{
+    margin-right: 20px;
+}
+
+.item-text{
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.filter-icons{
+    border-radius: 25px;
+    color: #0065FC;
+    height: 52px;
+    width: 52px;
+    background-color: #deebff
+
+}
+
+
+/* Information*/
+
+.Information{
+    font-family: raleway;
+    display: flex;
+}
+
+/* SEARCH */
+
+.Flexsearch{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flexctre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchborder{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.2px solid #F2F2F2;
+    
+}
+
+.iconSize{
+    height: 200px;
+    width: 160px;
+
+}
+
+.backgris{
+    height: 45px;
+    width: 50px;
+    background-color: #F2F2F2
+
+}
+
+.ResearchBar{
+    padding: 20px;
+    border: none;
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: #f2f2f2;
+}
+.buttonsearch{
+    color: white;
+    height: 50px;
+    width: 120px;
+    background-color: #0065FC;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
