@@ -1,90 +1,107 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="`viewport" content="width=device-width,initial,-scale=1.8" />
+    <title>Réservia</title>
 
-         <meta charset="UTF-8">
-         <meta name="`viewport" content="width=device-width,initial,-scale=1.8"/>
-         <title>Réservia</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
 
-         <link type="text/css" rel="stylesheet" href="style.css">
-         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-         
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-         <script src="https://kit.fontawesome.com/6665709368.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6665709368.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Section Navbar-->
 
-     </head>
-    <body>
-      
-      <!--Section Navbar-->
+    <header>
+      <nav>
+        <div class="flexBtw">
+          <div>
+            <img src="./img/Maquette/Reservia.svg" alt="logo de reservia" />
+          </div>
 
-      <header>
-        <nav>
-            <div class="flexBtw">
-             <div><img src="./img/Maquette/Reservia.svg" alt="logo de reservia">
-           </div>
-           
-              <div class="SizeLink flexAro">
-                <div class="SizeLinkNav Centerflex BorderNav">
-             <a class="LinkAccomode DecorationNo" href="#">Hébergement</a>
+          <div class="SizeLink flexAro">
+            <div class="SizeLinkNav Centerflex BorderNav">
+              <a class="LinkAccomode DecorationNo" href="#">Hébergement</a>
             </div>
-                
-              <div class="SizeLinkNav Centerflex">
+
+            <div class="SizeLinkNav Centerflex">
               <a class="LinkActivity DecorationNo" href="#">Activités</a>
             </div>
-                
-               <div class="SizeLinkNav Centerflex">
+
+            <div class="SizeLinkNav Centerflex">
               <a class="LinkRegister DecorationNo" href="#">S'inscrire</a>
-               </div>
-              </div>
             </div>
-          </nav>
-
-       <!--Section Search-->
-       <section>
-    <div>
-       <h1 class="h1-title">Trouvez votre hébergement pour vos vacances de rêve
-      </h1>
-       <p>En plein centre de ville ou en pleine nature</p>
-       </div>
-         <div class="searchborder flexctre">
-         <div class="backgris flexctre">
-           <i class="fas fa-map-marker-alt"></i></div>
-         <div class="search flexctre">
-         <input class="ResearchBar flexCentre"type="search" placeholder="Marseille , France"/>
+          </div>
         </div>
-          <div class="buttonsearch flexctre">Rechercher</div>
-    </div>
-  </header>
-        
-         
-      <!--Section Filters-->
+      </nav>
 
-      <h3>Filtres</h3>
-      <div class="FilterClass">
-      <i class="fas fa-money-bill-wave"></i>
-        <div>Économique</div>
-    <div>
-      <i class="fas fa-child"></i>
-        <div> Familiales</div>
-    </div> 
+      <!--Section Search-->
       <div>
-        <i class="fas fa-heart"></i>
-        <div>Romantiques</div>
-    </div> 
-       <div>
-        <i class="fas fa-dog"></i>
-        <div>Aniomaux autorisés</div>
+        <h1 class="h1-title">
+          Trouvez votre hébergement pour vos vacances de rêve
+        </h1>
+        <p>En plein centre de ville ou en pleine nature</p>
+      </div>
+      <div class="searchborder flexctre">
+        <div class="backgris flexctre">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="search flexctre">
+          <input
+            class="ResearchBar flexCentre"
+            type="search"
+            value="Marseille , France"
+          />
+        </div>
+        <div class="buttonsearch flexctre">Rechercher</div>
+      </div>
+    </header>
+
+    <!--Section Filters-->
+    <div class="Filterflextitle">
+      <div class="titlemargin"><h3>Filtres</h3></div>
+      <div class="filtres">
+        <div class="filter-button">
+          <div class="titlefiltericon">
+            <i class="fas fa-money-bill-wave fa-lg"></i>
+          </div>
+          <div class="filtertext">
+          <p>Économiques</p>
+        </div>
+        <div class="filter-button">
+          <div class="titlefiltericon">
+            <i class="fas fa-child fa-lg"></i>
+          </div>
+          <div class="filtertext">
+          <p>Familiales</p>
+        </div>
+        <div class="filter-button">
+          <div class="titlefiltericon">
+            <i class="fas fa-heart fa-lg"></i>
+          </div>
+          <div class="filtertext">
+          <p>Romantiques</p>
+        </div>
+        <div class="filter-button">
+          <div class="titlefiltericon">
+            <i class="fas fa-dog fa-lg"></i>
+          </div>
+          <div class="filtertext">
+          <p>Animaux autorisés</p>
+        </div>
+      </div>
     </div>
-         
-     
-   
-     <!--Section Hébergement-->
-    
-     <main>
-       <h3>Hébergement à Marseille</h3>
-
-     </main>
-
-    </body>
-  </httml>
+  </body>
+</html>
