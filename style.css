@@ -1,130 +1,173 @@
-
-/*HEADER*/
-
-p{ font-family: raleway;
-
+p {
+  font-family: raleway;
 }
 
-.flexBtw{  
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
- }
-
-.flexAro{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.flexBtw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.Centerflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flexAro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Centerflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*NAVIGATION*/
 
-.LinkAccomode{
-    color: #0065FC;
-
+.LinkAccomode {
+  color: #0065fc;
 }
 
 .LinkActivity {
-    color: black 
+  color: black;
 }
 
-
-.LinkRegister{
-    color: #0065FC
+.LinkRegister {
+  color: #0065fc;
 }
 
-.SizeLink{
-    width: 45%;
+.SizeLink {
+  width: 45%;
 }
 
-.SizeLinkNav{
-    width: 100px;
-    height: 99px;
+.SizeLinkNav {
+  width: 100px;
+  height: 99px;
 }
 
-.DecorationNo{
-    text-decoration: none;
+.DecorationNo {
+  text-decoration: none;
 }
 
-.BorderNav{
-    border-top: 2px solid;
-    color: #0065FC;
-    width: 110px;
-
-    
+.BorderNav {
+  border-top: 2px solid;
+  color: #0065fc;
+  width: 110px;
 }
 
 /* FILTRES */
 
-.FilterClass{
-    display: flex;
+.Filterflextitle {
+  display: flex;
+  margin: 10px;
 }
 
-/* Information*/
-
-.Information{
-    font-family: raleway;
-    display: flex;
+.filter-button {
+  margin-left: 25px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
+.filter {
+  display: flex;
+}
+
+.titlemargin {
+  position: relative;
+  bottom: -16px;
+  right: -3px;
+}
+
+.titlefiltericon {
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  justify-content: center;
+  background-color: #deebff;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  position: absolute;
+  top: 16px;
+  left: -1px;
+  color: #0065fc;
+}
+
+.titlefiltericon:hover {
+  color: white;
+  background-color: #0065fc;
+  cursor: pointer;
+}
+
+.filtres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filtres p {
+  height: 50px;
+  align-items: center;
+  font-weight: bold;
+  padding: 0 25px 0 65px;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  border-radius: 25px;
+}
+
+.filtertext:hover {
+  cursor: pointer;
+  color: #0065fc;
+}
+
+/*INFO*/
 
 /* SEARCH */
 
-.Flexsearch{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.Flexsearch {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.flexctre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px 0 0 10px;
+.flexctre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
 }
 
-.searchborder{
-    width: 400px;
-    border-radius: 10px;
-    border: 0.2px solid #F2F2F2;
-    
+.searchborder {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.2px solid #f2f2f2;
 }
 
-.iconSize{
-    height: 200px;
-    width: 160px;
-
+.iconSize {
+  height: 200px;
+  width: 160px;
 }
 
-.backgris{
-    height: 45px;
-    width: 50px;
-    background-color: #F2F2F2
-
+.backgris {
+  height: 45px;
+  width: 50px;
+  background-color: #f2f2f2;
 }
 
-.ResearchBar{
-    padding: 20px;
-    border: none;
-    height: 50px;
-    width: 230px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: #f2f2f2;
+.ResearchBar {
+  padding: 20px;
+  border: none;
+  height: 50px;
+  width: 220px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: #f2f2f2;
 }
-.buttonsearch{
-    color: white;
-    height: 50px;
-    width: 120px;
-    background-color: #0065FC;
-    width: 120px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
-
-} 
+.buttonsearch {
+  color: white;
+  height: 50px;
+  background-color: #0065fc;
+  width: 130px;
+  cursor: pointer;
+  border-radius: 0 15px 15px 0;
+}
