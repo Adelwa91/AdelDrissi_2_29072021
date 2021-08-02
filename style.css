@@ -1,5 +1,6 @@
 p {
   font-family: raleway;
+  color: black;
 }
 
 .flexBtw {
@@ -55,71 +56,70 @@ p {
 
 /* FILTRES */
 
-.Filterflextitle {
+.filtre {
   display: flex;
-  margin: 10px;
-}
-
-.filter-button {
-  margin-left: 25px;
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.filter {
-  display: flex;
-}
-
-.titlemargin {
-  position: relative;
-  bottom: -16px;
-  right: -3px;
-}
-
-.titlefiltericon {
-  border: 2px solid #f2f2f2;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 20px;
-  justify-content: center;
-  background-color: #deebff;
   align-items: center;
-  display: flex;
-  width: 50px;
-  position: absolute;
-  top: 16px;
-  left: -1px;
-  color: #0065fc;
 }
 
-.titlefiltericon:hover {
+.marginfilter {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.margFiltertitle {
+  margin-right: 20px;
+}
+
+.textfilterIcons {
+  border: 1px solid #f2f2f2;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 19px;
+}
+
+.Icons-Text {
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+.textfilterIcons:hover > .filter-text-hover {
+  color: #0065fc;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textfilterIcons:hover > .Icons-Text {
+  margin-left: -2px;
   color: white;
   background-color: #0065fc;
   cursor: pointer;
 }
 
-.filtres {
-  display: flex;
-  flex-wrap: wrap;
-}
-.filtres p {
-  height: 50px;
-  align-items: center;
-  font-weight: bold;
-  padding: 0 25px 0 65px;
-  border: 1px solid #d9d9d9;
-  display: flex;
-  border-radius: 25px;
-}
-
-.filtertext:hover {
-  cursor: pointer;
-  color: #0065fc;
+.filter-text-hover {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /*INFO*/
+
+.informations {
+  display: flex;
+  align-items: center;
+  color: #0065fc;
+}
+
+.icon-info {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+/*HEBERGEMENT*/
 
 /* SEARCH */
 
@@ -133,7 +133,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px 0 0 10px;
 }
 
 .searchborder {
