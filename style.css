@@ -1,26 +1,3 @@
-p {
-  font-family: raleway;
-  color: black;
-}
-
-.flexBtw {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flexAro {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.Centerflex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /*NAVIGATION*/
 
 .LinkAccomode {
@@ -52,6 +29,29 @@ p {
   border-top: 2px solid;
   color: #0065fc;
   width: 110px;
+}
+
+p {
+  font-family: raleway;
+  color: black;
+}
+
+.flexBtw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexAro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Centerflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* FILTRES */
@@ -120,6 +120,78 @@ p {
 }
 
 /*HEBERGEMENT*/
+
+.Accomod-Size {
+  height: 650px;
+  flex: 2;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Size-Most-Popular {
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 10px;
+  flex: 1;
+  background-color: #f2f2f2;
+}
+
+.Card-Cannebière {
+  background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.Card-Hostel-Port {
+  background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.Card-Hostel-Mouette {
+  background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.Card-Hostel-Beach {
+  background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.Card-Hostel-Auberge {
+  background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.Card-Hostel-Amina {
+  background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.flex-size-icons {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 20% 20% 20%;
+}
 
 /* SEARCH */
 
