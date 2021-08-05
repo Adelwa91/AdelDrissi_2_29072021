@@ -31,11 +31,6 @@
   width: 110px;
 }
 
-p {
-  font-family: raleway;
-  color: black;
-}
-
 .flexBtw {
   display: flex;
   justify-content: space-between;
@@ -71,7 +66,7 @@ p {
 }
 
 .textfilterIcons {
-  border: 1px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
   height: 50px;
   border-radius: 25px;
   margin-right: 19px;
@@ -108,7 +103,8 @@ p {
 .informations {
   display: flex;
   align-items: center;
-  color: #0065fc;
+  font-family: raleway;
+  margin-top: -26px;
 }
 
 .icon-info {
@@ -117,6 +113,13 @@ p {
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   margin-right: 5px;
+  color: #0065fc;
+}
+
+.show-more {
+  padding-top: 46px;
+  padding-left: 2px;
+  font-weight: bold;
 }
 
 /*HEBERGEMENT*/
@@ -126,16 +129,19 @@ p {
   flex: 2;
   background-color: #f2f2f2;
   border-radius: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 21px;
+  padding-left: 35px;
+  margin-top: 25px;
+  margin-left: 15px;
 }
 
 .Size-Most-Popular {
   height: 650px;
-  margin-left: 20px;
+  margin-left: 32px;
   border-radius: 10px;
   flex: 1;
   background-color: #f2f2f2;
+  margin-top: 25px;
 }
 
 .Card-Cannebière {
@@ -276,7 +282,70 @@ p {
   margin-top: -10px;
   margin-left: 15px;
 }
+.color-star-blue {
+  color: #0065fc;
+}
+
+.color-star-grey {
+  color: #f2f2f2;
+}
+
+/*MOSTPOPULAR*/
+
+.Flex-Most-Popular {
+  font-weight: bold;
+}
+
+.icon-most {
+  display: flex;
+  margin-left: 75%;
+  justify-content: center;
+  margin-top: -45px;
+}
+
+.Bloc-Most-Popular {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Popular-most-sun {
+  background-image: url("./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  width: 60%;
+  height: 159px;
+  border-radius: 15px 0 0 15px;
+  margin-top: 1%;
+  display: flex;
+  background-position: center;
+}
+
+.Most-Title-Night-Price {
+  background-color: white;
+  display: flex;
+  width: 78%;
+  height: 24%;
+  padding: 1px;
+  padding-top: 3px;
+  padding-left: 7px;
+  margin-top: 9%;
+  margin-left: 11px;
+  border-radius: 16px 16px 16px 16px;
+  padding-bottom: 13px;
+}
+
+.size-title {
+  margin-bottom: 20px;
+}
+
+.size-room {
+  margin-bottom: 20px;
+}
+
 /* SEARCH */
+
+.search-text {
+  font-family: raleway;
+}
 
 .Flexsearch {
   display: flex;
