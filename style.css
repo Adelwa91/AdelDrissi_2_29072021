@@ -144,8 +144,7 @@
   margin-top: 25px;
 }
 
-.Card-Cannebière {
-  background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+.Card-Auberge-Cannebière {
   width: 100%;
   height: 120px;
   background-size: cover;
@@ -153,15 +152,13 @@
   border-radius: 15px 15px 0 0;
 }
 .Card-Hostel-Port {
-  background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   width: 100%;
   height: 120px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
-.Card-Hostel-Mouette {
-  background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+.Card-Hostel-Mouettes {
   width: 100%;
   height: 120px;
   background-size: cover;
@@ -169,7 +166,6 @@
   border-radius: 15px 15px 0 0;
 }
 .Card-Hostel-Beach {
-  background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   width: 100%;
   height: 120px;
   background-size: cover;
@@ -177,86 +173,134 @@
   border-radius: 15px 15px 0 0;
 }
 .Card-Hostel-Auberge {
-  background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   width: 100%;
   height: 120px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
+.Hebergement-content-Auberge {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-left: 5px;
+  margin-right: 13px;
+  margin-bottom: -23px;
+}
+
 .Card-Hostel-Amina {
-  background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   width: 100%;
   height: 120px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
+
+.Hebergement-content-Amina {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-left: 4px;
+  margin-right: 13px;
+  margin-top: 23px;
+}
+
 .flex-size-icons {
   display: grid;
   justify-content: space-between;
   align-items: center;
-  grid-template-columns: 20% 20% 20%;
-  margin-right: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.Hebergement-cannebière {
-  height: 225px;
+.Hebergement-content-cannebière {
   background-color: white;
-  width: 169%;
-  padding: 5%;
-  border-radius: 16px;
+  border-radius: 15px 15px 15px 15px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 6px;
+  margin-right: 13px;
 }
 
-.Hebergement-port {
-  height: 225px;
+.Hebergement-content-port {
   background-color: white;
-  width: 169%;
-  padding: 5%;
-  border-radius: 16px;
-  margin-left: -13px;
+  border-radius: 15px 15px 15px 15px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-left: 6px;
+  margin-right: 13px;
 }
-.Hebergement-mouettes {
-  height: 225px;
+.Hebergement-content-mouettes {
   background-color: white;
-  width: 166%;
-  padding: 5%;
-  border-radius: 16px;
-  margin-left: -30px;
+  border-radius: 15px 15px 15px 15px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-left: 6px;
+  margin-right: 13px;
 }
-.Hebergement-Beach {
-  height: 225px;
+.Hebergement-content-Beach {
   background-color: white;
-  width: 169%;
-  padding: 5%;
-  border-radius: 16px;
-  margin-bottom: -41px;
-  margin-left: 1px;
+  border-radius: 15px 15px 15px 15px;
+  padding-right: 5px;
+  padding-top: 6px;
+  padding-left: 6px;
+  margin-right: 13px;
+  margin-top: 24px;
+  padding-bottom: 6px;
 }
-.Hebergement-Auberge {
-  height: 225px;
-  background-color: white;
-  width: 169%;
-  padding: 5%;
-  border-radius: 16px;
-  margin-left: -11px;
-  margin-bottom: -41px;
+
+.image-card-cannebière {
+  width: 100%;
+  height: 120px;
+  background-size: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
-.Hebergement-Amina {
-  height: 225px;
-  background-color: white;
-  width: 165%;
-  padding: 5%;
-  border-radius: 16px;
-  margin-left: -27px;
-  margin-bottom: -15px;
-  margin-top: 28px;
-  padding: 8px;
+
+.image-card-port {
+  width: 100%;
+  height: 120px;
+  background-size: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.image-card-Mouettes {
+  width: 100%;
+  height: 120px;
+  background-size: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.image-card-beach {
+  height: 100%;
+  background-size: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image-card-Auberge {
+  height: 100%;
+  background-size: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image-card-Amina {
+  width: 100%;
+  height: 120px;
+  background-size: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .flexcolumnmarg-cannebière {
   margin-top: -10px;
-  margin-left: 15px;
 }
 .flexcolumnmarg-Amina {
   margin-top: -10px;
