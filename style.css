@@ -355,27 +355,28 @@
 .Popular-card-most-sun-one {
   background-image: url("./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover;
-  width: 36%;
-  height: 126px;
+  width: 39%;
+  height: 122px;
+  padding-top: 11px;
   border-radius: 15px 0 0 15px;
-  margin-top: 2%;
   background-position: center;
 }
 
 .Popular-card-most-two {
   background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover;
-  width: 36%;
+  width: 48%;
   height: 120px;
   border-radius: 15px 0 0 15px;
-  margin-top: 1%;
+  padding-bottom: 6px;
+  padding-top: 3px;
   background-position: center;
 }
 
 .Popular-card-most-three {
   background-image: url("./img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   background-size: cover;
-  width: 36%;
+  width: 43%;
   padding-top: 6px;
   height: 117px;
   border-radius: 15px 0 0 15px;
@@ -384,30 +385,45 @@
 
 .Most-Title-Night-Price1 {
   background-color: white;
-  margin-top: 14%;
+  margin-top: 11%;
   margin-right: 5px;
-  padding-right: 45px;
-  padding-top: 1px;
-  padding-bottom: 7px;
+  padding-left: 5px;
   border-radius: 20px 20px 20px 20px;
 }
+
+.more-détails-most-1 {
+  padding-top: 2px;
+  padding-right: 42px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+}
+
 .Most-Title-Night-Price2 {
   background-color: white;
   margin-top: 16%;
   margin-right: 3px;
-  padding-left: 6px;
-  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-bottom: 1px;
   border-radius: 20px 20px 20px 20px;
+}
+
+.more-détails-most-2 {
+  padding-left: 19px;
+  padding-bottom: 4px;
 }
 
 .Most-Title-Night-Price3 {
   background-color: white;
   margin-top: 16%;
   margin-right: 6px;
-  padding-left: 6px;
+  padding-left: 4px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.more-détails-most-3 {
+  padding-left: 15px;
   padding-right: 48px;
   padding-bottom: 2px;
-  border-radius: 20px 20px 20px 20px;
 }
 
 .size-title {
@@ -416,6 +432,108 @@
 
 .size-room {
   margin-bottom: 20px;
+}
+
+/* ACTIVITY */
+
+.height-title {
+  height: 70px;
+}
+
+.Activity {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Activity-bloc {
+  height: 600px;
+  width: 100%;
+}
+
+.Activity-bloc2356 {
+  height: 600px;
+  width: 23%;
+}
+
+.Picture-Activity-1 {
+  background-image: url("./img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.Picture-Activity-2 {
+  background-image: url("./img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.Picture-Activity-3 {
+  background-image: url("./img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.Picture-Activity-4 {
+  background-image: url("./img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.Picture-Activity-5 {
+  background-image: url("./img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.Picture-Activity-6 {
+  background-image: url("./img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.more-details-activity-port {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.more-details-activity-fort {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  margin-top: 2px;
+}
+
+.title-activity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+}
+
+.blocActivity-2356 {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  margin-bottom: 60px;
 }
 
 /* SEARCH */
