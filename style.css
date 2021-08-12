@@ -117,7 +117,7 @@
 }
 
 .show-more {
-  padding-top: 46px;
+  padding-top: 25px;
   padding-left: 2px;
   font-weight: bold;
 }
@@ -336,6 +336,11 @@
 
 /*MOSTPOPULAR*/
 
+.flex-align-center {
+  align-items: center;
+  display: flex;
+}
+
 .Flex-Most-Popular {
   font-weight: bold;
 }
@@ -355,7 +360,7 @@
 .Popular-card-most-sun-one {
   background-image: url("./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover;
-  width: 39%;
+  width: 51%;
   height: 122px;
   padding-top: 11px;
   border-radius: 15px 0 0 15px;
@@ -365,7 +370,7 @@
 .Popular-card-most-two {
   background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover;
-  width: 48%;
+  width: 74%;
   height: 120px;
   border-radius: 15px 0 0 15px;
   padding-bottom: 6px;
@@ -376,7 +381,7 @@
 .Popular-card-most-three {
   background-image: url("./img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   background-size: cover;
-  width: 43%;
+  width: 50%;
   padding-top: 6px;
   height: 117px;
   border-radius: 15px 0 0 15px;
@@ -393,7 +398,7 @@
 
 .more-détails-most-1 {
   padding-top: 2px;
-  padding-right: 42px;
+  padding-right: 11px;
   padding-bottom: 7px;
   padding-left: 13px;
 }
@@ -422,7 +427,6 @@
 
 .more-détails-most-3 {
   padding-left: 15px;
-  padding-right: 48px;
   padding-bottom: 2px;
 }
 
@@ -455,8 +459,7 @@
   width: 23%;
 }
 
-.Picture-Activity-1 {
-  background-image: url("./img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+.image-card-vieux-port {
   background-size: cover;
   width: 100%;
   height: 530px;
@@ -464,8 +467,7 @@
   background-position: center;
 }
 
-.Picture-Activity-2 {
-  background-image: url("./img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+.image-card-fort-de-pomègues {
   background-size: cover;
   width: 100%;
   height: 250px;
@@ -473,8 +475,7 @@
   background-position: center;
 }
 
-.Picture-Activity-3 {
-  background-image: url("./img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+.image-card-îles-du-frioul {
   background-size: cover;
   width: 100%;
   height: 150px;
@@ -482,8 +483,7 @@
   background-position: center;
 }
 
-.Picture-Activity-4 {
-  background-image: url("./img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+.image-card-parc-calanques {
   background-size: cover;
   width: 100%;
   height: 530px;
@@ -491,8 +491,7 @@
   background-position: center;
 }
 
-.Picture-Activity-5 {
-  background-image: url("./img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+.image-card-notre-dame {
   background-size: cover;
   width: 100%;
   height: 200px;
@@ -500,8 +499,7 @@
   background-position: center;
 }
 
-.Picture-Activity-6 {
-  background-image: url("./img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+.image-card-parc-longchamps {
   background-size: cover;
   width: 100%;
   height: 200px;
