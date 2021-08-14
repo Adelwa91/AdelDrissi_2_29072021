@@ -251,6 +251,30 @@
   padding-bottom: 6px;
 }
 
+.Hebergement-content-cannebière:hover {
+  transform: scale(1.1);
+}
+
+.Hebergement-content-port:hover {
+  transform: scale(1.1);
+}
+
+.Hebergement-content-mouettes:hover {
+  transform: scale(1.1);
+}
+
+.Hebergement-content-Beach:hover {
+  transform: scale(1.1);
+}
+
+.Hebergement-content-Auberge:hover {
+  transform: scale(1.1);
+}
+
+.Hebergement-content-Amina:hover {
+  transform: scale(1.1);
+}
+
 .image-card-cannebière {
   width: 100%;
   height: 120px;
