@@ -29,16 +29,22 @@
           <div>
             <img src="./img/Maquette/Reservia.svg" alt="logo de reservia" />
           </div>
-          <div class="SizeLink flexAro">
+
+          <!--Ajout d'une div contenant Hébergement et Activités-->
+          <div class="flexHebergement-Activity sizeLiens12">
             <div class="SizeLinkNav Centerflex BorderNav">
-              <a class="LinkAccomode DecorationNo" href="#">Hébergement</a>
+              <a class="LinkAccomode DecorationNo" href="#Hosting"
+                >Hébergement</a
+              >
             </div>
             <div class="SizeLinkNav Centerflex">
-              <a class="LinkActivity DecorationNo" href="#">Activités</a>
+              <a class="LinkActivity DecorationNo" href="#Activity-link"
+                >Activités</a
+              >
             </div>
-            <div class="SizeLinkNav Centerflex">
-              <a class="LinkRegister DecorationNo" href="#">S'inscrire</a>
-            </div>
+          </div>
+          <div class="SizeLinkNav Centerflex">
+            <a class="LinkRegister DecorationNo" href="#">S'inscrire</a>
           </div>
         </div>
       </nav>
@@ -67,30 +73,35 @@
 
     <!--Section Filters-->
     <main>
-      <div class="filtre marginfilter">
+      <div class="filtre marginfilter marginfiltercolumns-mobile">
         <div class="margFiltertitle"><h3>Filtres</h3></div>
-        <div class="flexBtw textfilterIcons">
-          <i class="fas fa-money-bill-wave fa-lg Icons-Text flexctre"></i>
-          <div class="filter-text-hover">Économique</div>
+        <!--Partie Économique , Familiales mobiles-->
+        <div class="flexAro">
+          <div class="flexBtw textfilterIcons">
+            <i class="fas fa-money-bill-wave fa-lg Icons-Text flexctre"></i>
+            <div class="filter-text-hover">Économique</div>
+          </div>
+          <div class="flexBtw textfilterIcons">
+            <i class="fas fa-child fa-lg Icons-Text flexctre"></i>
+            <div class="filter-text-hover">Familiales</div>
+          </div>
         </div>
-        <div class="flexBtw textfilterIcons">
-          <i class="fas fa-child fa-lg Icons-Text flexctre"></i>
-          <div class="filter-text-hover">Familiales</div>
-        </div>
-        <div class="flexBtw textfilterIcons">
-          <i class="fas fa-heart fa-lg Icons-Text flexctre"></i>
-          <div class="filter-text-hover">Romantiques</div>
-        </div>
-        <div class="flexBtw textfilterIcons">
-          <i class="fas fa-dog fa-lg Icons-Text flexctre"></i>
-          <div class="filter-text-hover">Animaux autorisés</div>
+        <!--Partie Romantiques , Animaux autorisés mobiles-->
+        <div class="marginfiltercolumns-mobile flexAro">
+          <div class="flexBtw textfilterIcons">
+            <i class="fas fa-heart fa-lg Icons-Text flexctre"></i>
+            <div class="filter-text-hover">Romantiques</div>
+          </div>
+          <div class="flexBtw textfilterIcons">
+            <i class="fas fa-dog fa-lg Icons-Text flexctre"></i>
+            <div class="filter-text-hover">Animaux autorisés</div>
+          </div>
         </div>
       </div>
 
       <!--Section Information-->
-
       <div class="informations">
-        <div class="icon-info flexctre">
+        <div class="icon-info">
           <i class="fas fa-info fa xs"></i>
         </div>
         <p>Plus de 500 logement sont disponibles dans cette ville</p>
@@ -98,7 +109,7 @@
 
       <!--Section Hébergement-->
 
-      <section class="flexAro">
+      <section id="Hosting" class="flexAro">
         <div class="Accomod-Size">
           <h2>Hébergement à Marseille</h2>
           <div class="flex-size-icons">
@@ -227,64 +238,65 @@
           <p class="show-more">Afficher plus</p>
         </div>
 
-      <div class="Size-Most-Popular Bloc-Most-Popular">
-        <div class="Flex-Most-Popular">
-          <h2>Les plus Populaires</h2>
-          <div class="icon-most"><i class="fas fa-chart-line"></i></div>
-        </div>
+        <!--Section Populaires -->
 
-        <div class="Most-Title-Night-Price1 flex-align-center">
-          <div class="Popular-card-most-sun-one"></div>
-          <div class="more-détails-most-1">
-            <h3>Hôtel le soleil du matin</h3>
-            <p>Nuit à partir de 28€</p>
-            <div>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
+        <div class="Size-Most-Popular Bloc-Most-Popular">
+          <div class="Flex-Most-Popular">
+            <h2>Les plus Populaires</h2>
+            <div class="icon-most"><i class="fas fa-chart-line"></i></div>
+          </div>
+
+          <div class="Most-Title-Night-Price flex-align-center">
+            <div class="Popular-card-most-sun-one"></div>
+            <div class="more-détails-most-1">
+              <h3>Hôtel le soleil du matin</h3>
+              <p>Nuit à partir de 28€</p>
+              <div>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="Most-Title-Night-Price flex-align-center">
+            <div class="Popular-card-most-two"></div>
+            <div class="more-détails-most-2">
+              <h3>Au coeur de l'eau chambres d'hôtes</h3>
+              <p>Nuit à partir de 28€</p>
+              <div>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-grey"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="Most-Title-Night-Price flex-align-center">
+            <div class="Popular-card-most-three"></div>
+            <div class="more-détails-most-3">
+              <h3>Hôtel Tout bleu et blanc</h3>
+              <p>Nuit à partir de 28€</p>
+              <div>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-blue"></i>
+                <i class="fas fa-star color-star-grey"></i>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="Most-Title-Night-Price2 flex-align-center">
-          <div class="Popular-card-most-two"></div>
-          <div class="more-détails-most-2">
-            <h3>Au coeur de l'eau chambres d'hôtes</h3>
-            <p>Nuit à partir de 28€</p>
-            <div>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-grey"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="Most-Title-Night-Price3 flex-align-center">
-          <div class="Popular-card-most-three"></div>
-          <div class="more-détails-most-3">
-            <h3>Hôtel Tout bleu et blanc</h3>
-            <p>Nuit à partir de 28€</p>
-            <div>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-blue"></i>
-              <i class="fas fa-star color-star-grey"></i>
-            </div>
-          </div>
-        </div>
-      </div>
       </section>
 
       <!--Section Activités à Marseille-->
-
-      <section class="Activity">
+      <section class="Activity" id="Activity-link">
         <h2>Activités à Marseille</h2>
-        <div class="Activity-bloc flexBtw">
+        <div class="Activity-bloc flex-Activities">
           <div class="more-details-activity-port columnflex-center">
             <img
               class="image-card-vieux-port"
