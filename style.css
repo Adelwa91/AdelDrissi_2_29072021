@@ -6,6 +6,8 @@
 
 .LinkActivity {
   color: black;
+  margin-left: 30px;
+  margin-top: 3px;
 }
 
 .LinkRegister {
@@ -31,6 +33,10 @@
   width: 110px;
 }
 
+.sizeLiens12 {
+  margin-left: 60%;
+}
+
 .flexBtw {
   display: flex;
   justify-content: space-between;
@@ -44,6 +50,12 @@
 }
 
 .Centerflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexHebergement-Activity {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,13 +110,17 @@
   padding-left: 20px;
 }
 
+.flex-fam-economique {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /*INFO*/
 
 .informations {
   display: flex;
   align-items: center;
-  font-family: raleway;
-  margin-top: -26px;
 }
 
 .icon-info {
@@ -121,7 +137,6 @@
   padding-left: 2px;
   font-weight: bold;
 }
-
 /*HEBERGEMENT*/
 
 .Accomod-Size {
@@ -132,7 +147,7 @@
   padding-right: 21px;
   padding-left: 35px;
   margin-top: 25px;
-  margin-left: 15px;
+  margin-left: 3px;
 }
 
 .Size-Most-Popular {
@@ -371,9 +386,9 @@
 
 .icon-most {
   display: flex;
-  margin-left: 75%;
+  margin-left: 100%;
   justify-content: center;
-  margin-top: -45px;
+  margin-top: -41px;
 }
 
 .Bloc-Most-Popular {
@@ -384,9 +399,8 @@
 .Popular-card-most-sun-one {
   background-image: url("./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover;
-  width: 51%;
+  width: 38%;
   height: 122px;
-  padding-top: 11px;
   border-radius: 15px 0 0 15px;
   background-position: center;
 }
@@ -394,63 +408,46 @@
 .Popular-card-most-two {
   background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover;
-  width: 74%;
+  width: 32%;
   height: 120px;
   border-radius: 15px 0 0 15px;
-  padding-bottom: 6px;
-  padding-top: 3px;
+  padding-right: 48px;
+  padding-top: 13px;
   background-position: center;
 }
 
 .Popular-card-most-three {
   background-image: url("./img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   background-size: cover;
-  width: 50%;
+  width: 38%;
   padding-top: 6px;
-  height: 117px;
+  height: 120px;
   border-radius: 15px 0 0 15px;
   background-position: center;
 }
 
-.Most-Title-Night-Price1 {
+.Most-Title-Night-Price {
   background-color: white;
-  margin-top: 11%;
-  margin-right: 5px;
+  margin-top: 53px;
   padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 3px;
   border-radius: 20px 20px 20px 20px;
 }
 
 .more-détails-most-1 {
   padding-top: 2px;
-  padding-right: 11px;
   padding-bottom: 7px;
-  padding-left: 13px;
-}
-
-.Most-Title-Night-Price2 {
-  background-color: white;
-  margin-top: 16%;
-  margin-right: 3px;
-  padding-left: 5px;
-  padding-bottom: 1px;
-  border-radius: 20px 20px 20px 20px;
+  padding-left: 20px;
 }
 
 .more-détails-most-2 {
-  padding-left: 19px;
+  padding-left: 23px;
   padding-bottom: 4px;
 }
 
-.Most-Title-Night-Price3 {
-  background-color: white;
-  margin-top: 16%;
-  margin-right: 6px;
-  padding-left: 4px;
-  border-radius: 20px 20px 20px 20px;
-}
-
 .more-détails-most-3 {
-  padding-left: 15px;
+  padding-left: 25px;
   padding-bottom: 2px;
 }
 
@@ -489,6 +486,7 @@
   height: 530px;
   border-radius: 15px 15px 0 0;
   background-position: center;
+  object-fit: cover;
 }
 
 .image-card-fort-de-pomègues {
@@ -497,6 +495,7 @@
   height: 250px;
   border-radius: 15px 15px 0 0;
   background-position: center;
+  object-fit: cover;
 }
 
 .image-card-îles-du-frioul {
@@ -505,6 +504,7 @@
   height: 150px;
   border-radius: 15px 15px 0 0;
   background-position: center;
+  object-fit: cover;
 }
 
 .image-card-parc-calanques {
@@ -513,6 +513,7 @@
   height: 530px;
   border-radius: 15px 15px 0 0;
   background-position: center;
+  object-fit: cover;
 }
 
 .image-card-notre-dame {
@@ -521,6 +522,7 @@
   height: 200px;
   border-radius: 15px 15px 0 0;
   background-position: center;
+  object-fit: cover;
 }
 
 .image-card-parc-longchamps {
@@ -529,6 +531,7 @@
   height: 200px;
   border-radius: 15px 15px 0 0;
   background-position: center;
+  object-fit: cover;
 }
 
 .more-details-activity-port {
@@ -556,6 +559,12 @@
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   margin-bottom: 60px;
+}
+
+.flex-Activities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* SEARCH */
@@ -619,7 +628,6 @@
 
 .height-bloc1 {
   height: 150px;
-  cursor: pointer;
 }
 
 .height-bloc2 {
@@ -636,4 +644,47 @@
 
 .mrgin-bloc3 {
   margin-right: 10%;
+}
+
+/* RESPONSIVE TAB*/
+
+@media screen and (width: 1295px) {
+  .sizeLiens12 {
+    margin-left: 35%;
+  }
+
+  .Accomod-Size {
+    min-height: auto;
+  }
+  .flex-size-icons {
+    min-height: 150px;
+  }
+}
+.Size-Most-Popular {
+  min-height: auto;
+}
+
+@media screen and (max-width: 990px) {
+  .marginfiltercolumns-mobile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flexBtw {
+    margin-bottom: 20px;
+  }
+  #Hosting {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .Bloc-Most-Popular {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .Accomod-Size {
+    flex: none;
+    width: 90%;
+    margin-top: 50px;
+  }
 }
