@@ -33,7 +33,7 @@
   width: 110px;
 }
 
-.sizeLiens12 {
+.sizeLinkone-two {
   margin-left: 60%;
 }
 
@@ -187,13 +187,7 @@
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
-.Card-Hostel-Auberge {
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
-}
+
 .Hebergement-content-Auberge {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -203,8 +197,7 @@
   margin-right: 13px;
   margin-bottom: -23px;
 }
-
-.Card-Hostel-Amina {
+.Card-Hostel-Auberge {
   width: 100%;
   height: 120px;
   background-size: cover;
@@ -220,6 +213,14 @@
   padding-left: 4px;
   margin-right: 13px;
   margin-top: 23px;
+}
+
+.Card-Hostel-Amina {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
 }
 
 .flex-size-icons {
@@ -285,11 +286,9 @@
 .Hebergement-content-Auberge:hover {
   transform: scale(1.1);
 }
-
 .Hebergement-content-Amina:hover {
   transform: scale(1.1);
 }
-
 .image-card-cannebière {
   width: 100%;
   height: 120px;
@@ -340,6 +339,7 @@
 
 .flexcolumnmarg-cannebière {
   margin-top: -10px;
+  padding-left: 15px;
 }
 .flexcolumnmarg-Amina {
   margin-top: -10px;
@@ -534,17 +534,10 @@
   object-fit: cover;
 }
 
-.more-details-activity-port {
+.more-details-activity {
   width: 23%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-.more-details-activity-fort {
-  width: 23%;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-  margin-top: 2px;
 }
 
 .title-activity {
@@ -646,16 +639,13 @@
   margin-right: 10%;
 }
 
-/* RESPONSIVE TAB*/
+/*RESPONSIVE*/
 
-@media screen and (width: 1295px) {
-  .sizeLiens12 {
+@media screen and (max-width: 1300px) {
+  .sizeLinkone-two {
     margin-left: 35%;
   }
 
-  .Accomod-Size {
-    min-height: auto;
-  }
   .flex-size-icons {
     min-height: 150px;
   }
@@ -686,5 +676,70 @@
     flex: none;
     width: 90%;
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .sizeLinkone-two {
+    margin-left: 20%;
+  }
+
+  .Accomod-Size {
+    height: auto;
+  }
+
+  .flex-size-icons {
+    grid-template-columns: 1fr;
+  }
+
+  .Hebergement-content-mouettes {
+    margin-top: 50px;
+  }
+  .Hebergement-content-Beach {
+    margin-top: 50px;
+  }
+  .Hebergement-content-Auberge {
+    margin-top: 50px;
+  }
+  .Hebergement-content-port {
+    margin-top: 50px;
+  }
+  .Hebergement-content-Amina {
+    margin-top: 50px;
+  }
+
+  .Activity-bloc {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .more-details-activity {
+    width: 100%;
+  }
+  .image-card-parc-calanques {
+    height: 200px;
+  }
+
+  .image-card-vieux-port {
+    height: 200px;
+  }
+
+  .Activity-bloc2356 {
+    width: 100%;
+    height: auto;
+  }
+
+  .blocActivity-2356 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .height-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mrgin-bloc1 {
+    margin-left: 0;
   }
 }
