@@ -43,6 +43,12 @@
   align-items: center;
 }
 
+.flexBtw-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .flexAro {
   display: flex;
   justify-content: space-around;
@@ -62,6 +68,11 @@
 }
 
 /* FILTRES */
+.flexAround-filter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .filtre {
   display: flex;
@@ -562,6 +573,10 @@
 
 /* SEARCH */
 
+.buttonsearch-desktop {
+  display: none;
+}
+
 .search-text {
   font-family: raleway;
 }
@@ -639,11 +654,17 @@
   margin-right: 10%;
 }
 
+.flexBtw-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*RESPONSIVE*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
   .sizeLinkone-two {
-    margin-left: 35%;
+    margin-left: 70%;
   }
 
   .flex-size-icons {
@@ -673,19 +694,7 @@
   }
 
   .Accomod-Size {
-    flex: none;
-    width: 90%;
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .sizeLinkone-two {
-    margin-left: 20%;
-  }
-
-  .Accomod-Size {
-    height: auto;
+    width: 89%;
   }
 
   .flex-size-icons {
@@ -704,6 +713,7 @@
   .Hebergement-content-port {
     margin-top: 50px;
   }
+
   .Hebergement-content-Amina {
     margin-top: 50px;
   }
@@ -716,17 +726,47 @@
   .more-details-activity {
     width: 100%;
   }
-  .image-card-parc-calanques {
-    height: 200px;
+
+  .Activity-bloc2356 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .sizeLinkone-two {
+    margin-left: 20%;
   }
 
-  .image-card-vieux-port {
-    height: 200px;
+  .Accomod-Size {
+    height: auto;
+  }
+
+  .flex-size-icons {
+    grid-template-columns: 2fr;
+  }
+
+  .Activity-bloc {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .more-details-activity {
+    width: 100%;
   }
 
   .Activity-bloc2356 {
     width: 100%;
     height: auto;
+  }
+
+  .image-card-parc-calanques,
+  .image-card-îles-du-frioul,
+  .image-card-notre-dame,
+  .image-card-parc-longchamps,
+  .image-card-fort-de-pomègue,
+  .image-card-vieux-port {
+    height: 200px;
   }
 
   .blocActivity-2356 {
@@ -741,5 +781,59 @@
 
   .mrgin-bloc1 {
     margin-left: 0;
+  }
+
+  .flexBtw-nav {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sizeLinknav {
+    flex-direction: row;
+  }
+
+  .sizeLinkone-two {
+    order: 1;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Mobilesize {
+    width: 100%;
+    border-top: none;
+  }
+
+  .flexBtw-nav {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Mobilesize:hover {
+    border-bottom: 2px solid #0065fc;
+  }
+
+  .searchborder {
+    width: 450px;
+    border: none;
+  }
+
+  .ResearchBar {
+    border: 1px solid #f2f2f2;
+  }
+
+  .buttonsearch {
+    width: 50px;
+    border-radius: 11px;
+  }
+
+  .buttonsearch-desktop {
+    display: block;
+  }
+  .mobilenonesearch {
+    display: none;
   }
 }
