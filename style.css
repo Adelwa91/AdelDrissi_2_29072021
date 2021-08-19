@@ -28,7 +28,7 @@
 }
 
 .BorderNav {
-  border-top: 2px solid;
+  border-top: 2px solid #f2f2f2;
   color: #0065fc;
   width: 110px;
 }
@@ -207,6 +207,7 @@
   padding-left: 5px;
   margin-right: 13px;
   margin-bottom: -23px;
+  box-shadow: 5px 5px 5px 1px gainsboro;
 }
 .Card-Hostel-Auberge {
   width: 100%;
@@ -224,6 +225,7 @@
   padding-left: 4px;
   margin-right: 13px;
   margin-top: 23px;
+  box-shadow: 5px 5px 5px 1px gainsboro;
 }
 
 .Card-Hostel-Amina {
@@ -249,6 +251,7 @@
   padding-left: 5px;
   padding-bottom: 6px;
   margin-right: 13px;
+  box-shadow: 5px 5px 5px 1px gainsboro;
 }
 
 .Hebergement-content-port {
@@ -258,6 +261,7 @@
   padding-top: 5px;
   padding-left: 6px;
   margin-right: 13px;
+  box-shadow: 5px 5px 5px 1px gainsboro;
 }
 .Hebergement-content-mouettes {
   background-color: white;
@@ -266,6 +270,7 @@
   padding-top: 4px;
   padding-left: 6px;
   margin-right: 13px;
+  box-shadow: 5px 5px 5px 1px gainsboro;
 }
 .Hebergement-content-Beach {
   background-color: white;
@@ -276,6 +281,7 @@
   margin-right: 13px;
   margin-top: 24px;
   padding-bottom: 6px;
+  box-shadow: 5px 5px 5px 1px gainsboro;
 }
 
 .Hebergement-content-cannebière:hover {
@@ -439,7 +445,7 @@
 
 .Most-Title-Night-Price {
   background-color: white;
-  margin-top: 53px;
+  margin-top: 47px;
   padding-left: 5px;
   padding-bottom: 5px;
   padding-top: 3px;
@@ -715,7 +721,7 @@
   }
 
   .Hebergement-content-Amina {
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .Activity-bloc {
@@ -804,16 +810,16 @@
   .Mobilesize {
     width: 100%;
     border-top: none;
+    border-bottom: 3px solid #f2f2f2;
   }
-
+  .Mobilesize:hover {
+    border-top: 0;
+    border-bottom: 3px solid #0065fc;
+  }
   .flexBtw-nav {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-  }
-
-  .Mobilesize:hover {
-    border-bottom: 2px solid #0065fc;
   }
 
   .searchborder {
@@ -830,10 +836,52 @@
     border-radius: 11px;
   }
 
+  .Économy-mobile {
+    margin-right: 5px;
+  }
+
+  .familly-mobile {
+    margin-right: 0;
+  }
+
+  .informations {
+    padding-left: 2%;
+  }
+
+  .filter-text-hover {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+
   .buttonsearch-desktop {
     display: block;
   }
   .mobilenonesearch {
     display: none;
+  }
+
+  .title-mobile {
+    padding-left: 5%;
+  }
+
+  .Mobile-reservia-logo {
+    padding-left: 5%;
+  }
+
+  .marginfilter {
+    padding-left: 5%;
+  }
+
+  .Bloc-Most-Popular {
+    border-radius: 0;
+  }
+
+  .Accomod-Size {
+    background-color: white;
+  }
+
+  .Activity-bloc {
+    padding: 5%;
+    width: 90%;
   }
 }
