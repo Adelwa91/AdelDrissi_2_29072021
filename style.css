@@ -6,7 +6,6 @@
 
 .LinkActivity {
   color: black;
-  margin-left: 30px;
   margin-top: 3px;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .sizeLinkone-two {
-  margin-left: 60%;
+  margin-left: 73%;
 }
 
 .flexBtw {
@@ -689,6 +688,15 @@
   .flexBtw {
     margin-bottom: 20px;
   }
+
+  .image-card-vieux-port {
+    height: 230px;
+  }
+
+  .image-card-parc-calanques {
+    height: 230px;
+  }
+
   #Hosting {
     flex-direction: column-reverse;
     width: 100%;
@@ -766,12 +774,12 @@
     height: auto;
   }
 
-  .image-card-parc-calanques,
-  .image-card-îles-du-frioul,
-  .image-card-notre-dame,
-  .image-card-parc-longchamps,
-  .image-card-fort-de-pomègue,
-  .image-card-vieux-port {
+  .image-card-parc-calanques
+    .image-card-îles-du-frioul
+    .image-card-notre-dame
+    .image-card-parc-longchamps
+    .image-card-fort-de-pomègue
+    .image-card-vieux-port {
     height: 200px;
   }
 
@@ -799,6 +807,10 @@
 @media screen and (max-width: 600px) {
   .sizeLinknav {
     flex-direction: row;
+  }
+
+  .image-card-parc-calanques {
+    height: 200px;
   }
 
   .sizeLinkone-two {
@@ -883,5 +895,11 @@
   .Activity-bloc {
     padding: 5%;
     width: 90%;
+  }
+  .LinkAccomode {
+    padding-top: 20%;
+  }
+  .LinkActivity {
+    padding-top: 20%;
   }
 }
