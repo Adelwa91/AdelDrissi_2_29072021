@@ -1,5 +1,9 @@
 /*NAVIGATION*/
 
+.logo {
+  flex-direction: row;
+}
+
 .LinkAccomode {
   color: #0065fc;
 }
@@ -751,9 +755,12 @@
   .sizeLinkone-two {
     margin-left: 20%;
   }
-
   .Accomod-Size {
     height: auto;
+  }
+
+  .logo {
+    padding-right: 190px;
   }
 
   .flex-size-icons {
@@ -801,12 +808,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
+    justify-content: flex-end;
   }
 }
 
 @media screen and (max-width: 600px) {
   .sizeLinknav {
     flex-direction: row;
+  }
+
+  .logo {
+    padding-right: 160px;
   }
 
   .image-card-parc-calanques {
@@ -817,6 +829,11 @@
     order: 1;
     width: 100%;
     margin-left: 0;
+  }
+
+  .Popular-card-most-sun-one {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .Mobilesize {
@@ -835,7 +852,7 @@
   }
 
   .searchborder {
-    width: 450px;
+    width: 320px;
     border: none;
   }
 
@@ -897,9 +914,11 @@
     width: 90%;
   }
   .LinkAccomode {
-    padding-top: 20%;
+    padding-top: 30%;
+    padding-left: 10%;
   }
   .LinkActivity {
-    padding-top: 20%;
+    padding-top: 28%;
+    padding-left: 10%;
   }
 }
