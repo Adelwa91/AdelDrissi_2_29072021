@@ -822,6 +822,13 @@
     flex-direction: row;
   }
 
+  .logo-container {
+    width: 100px;
+    float: left;
+    display: flex;
+    flex: auto;
+  }
+
   .logo {
     padding-right: 282px;
   }
@@ -894,6 +901,7 @@
   .buttonsearch-desktop {
     display: block;
   }
+
   .mobilenonesearch {
     display: none;
   }
