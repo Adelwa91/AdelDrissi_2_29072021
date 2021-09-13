@@ -458,6 +458,10 @@
   border-radius: 20px 20px 20px 20px;
 }
 
+.Most-Title-Night-Price:hover {
+  transform: scale(1.1);
+}
+
 .more-détails-most-1 {
   padding-top: 2px;
   padding-bottom: 7px;
@@ -563,6 +567,10 @@
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
+.more-details-activity:hover {
+  transform: scale(1.1);
+}
+
 .title-activity {
   display: flex;
   justify-content: flex-start;
@@ -576,6 +584,10 @@
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   margin-bottom: 60px;
+}
+
+.blocActivity-2356:hover {
+  transform: scale(1.1);
 }
 
 .flex-Activities {
@@ -938,12 +950,12 @@
     width: 90%;
   }
   .LinkAccomode {
-    /* padding-top: 30%; */
-    /* padding-left: 10%; */
+    /*padding-top: 30%;*/
+    /*padding-left: 10%;*/
     padding-bottom: -4px;
   }
   .LinkActivity {
-    /* padding-top: 28%; */
-    /* padding-left: 10%; */
+    /*padding-top: 28%;*/
+    padding-left: 10%;
   }
 }
