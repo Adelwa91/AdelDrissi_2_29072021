@@ -243,7 +243,6 @@
 
 .flex-size-icons {
   display: grid;
-  justify-content: space-between;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
