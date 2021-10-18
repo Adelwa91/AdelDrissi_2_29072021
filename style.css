@@ -1,5 +1,15 @@
 /*NAVIGATION*/
 
+@font-face {
+  font-family: "Raleway";
+  src: url(./assets/Raleway/static/Raleway-Medium.ttf);
+}
+
+* {
+  font-family: "Raleway", Sans-serif;
+  box-sizing: border-box;
+}
+
 .logo {
   flex-direction: row;
 }
