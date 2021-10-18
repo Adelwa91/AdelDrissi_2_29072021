@@ -439,7 +439,7 @@
 .Popular-card-most-two {
   background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover;
-  width: 32%;
+  width: 48%;
   height: 120px;
   border-radius: 15px 0 0 15px;
   padding-right: 48px;
@@ -698,7 +698,7 @@
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1440px) {
   .sizeLinkone-two {
     margin-left: 70%;
   }
@@ -757,6 +757,13 @@
   }
   .Hebergement-content-port {
     margin-top: 50px;
+  }
+
+  .Popular-card-most-two {
+    width: 39%;
+  }
+  .Popular-card-most-three {
+    width: 39%;
   }
 
   .Hebergement-content-Amina {
@@ -832,6 +839,10 @@
     margin-left: 0;
   }
 
+  .Popular-card-most-two {
+    width: 39%;
+  }
+
   .flexBtw-nav {
     flex-wrap: wrap;
     flex-direction: row;
@@ -903,7 +914,6 @@
 
   .buttonsearch {
     width: 50px;
-    /* border-radius: 11px; */
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -958,12 +968,9 @@
     width: 90%;
   }
   .LinkAccomode {
-    /*padding-top: 30%;*/
-    /*padding-left: 10%;*/
     padding-bottom: -4px;
   }
   .LinkActivity {
-    /*padding-top: 28%;*/
     padding-left: 10%;
   }
 }
