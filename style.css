@@ -743,20 +743,7 @@
   }
 
   .flex-size-icons {
-    grid-template-columns: 1fr;
-  }
-
-  .Hebergement-content-mouettes {
-    margin-top: 50px;
-  }
-  .Hebergement-content-Beach {
-    margin-top: 50px;
-  }
-  .Hebergement-content-Auberge {
-    margin-top: 50px;
-  }
-  .Hebergement-content-port {
-    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
   }
 
   .Popular-card-most-two {
@@ -764,10 +751,6 @@
   }
   .Popular-card-most-three {
     width: 39%;
-  }
-
-  .Hebergement-content-Amina {
-    margin-top: 70px;
   }
 
   .Activity-bloc {
