@@ -619,253 +619,258 @@ body {
     width: 35%;
   }
 
-.flex-size-icons {
+  .flex-size-icons {
     min-height: 150px;
   }
 
-.Size-Most-Popular {
-  min-height: auto;
-}
-@media screen and (max-width: 990px) {
-  .marginfiltercolumns-mobile {
-    flex-direction: column;
-    align-items: flex-start;
+  .Size-Most-Popular {
+    min-height: auto;
   }
-  .flexBtw {
-    margin-bottom: 20px;
-  }
-  .image-card-vieux-port {
-    height: 230px;
-  }
-  .image-card-parc-calanques {
-    height: 230px;
-  }
-  #Hosting {
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-  .Bloc-Most-Popular {
-    flex: none;
-    width: 90%;
-    margin-left: 0;
-  }
-  .Accomod-Size {
-    width: 89%;
-  }
-  .flex-size-icons {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .Popular-card-most-two {
-    width: 28%;
-  }
-  .Popular-card-most-three {
-    width: 35%;
-  }
-  .Activity-bloc {
-    flex-direction: column;
-    height: auto;
-  }
-  .more-details-activity {
-    width: 100%;
-  }
-  .Activity-bloc2356 {
-    width: 100%;
-    height: auto;
-  }
-}
-@media screen and (max-width: 770px) {
-  .Accomod-Size {
-    height: auto;
-  }
-  .logo {
-    padding-right: 190px;
-  }
-  .flex-size-icons {
-    grid-template-columns: 1fr 1fr;
-  }
-  .Activity-bloc {
-    flex-direction: column;
-    height: auto;
-  }
-  .more-details-activity {
-    width: 100%;
-  }
-  .Activity-bloc2356 {
-    width: 100%;
-    height: auto;
-  }
-  .image-card-parc-calanques
-    .image-card-îles-du-frioul
-    .image-card-notre-dame
-    .image-card-parc-longchamps
-    .image-card-fort-de-pomègue
+  @media screen and (max-width: 990px) {
+    .marginfiltercolumns-mobile {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .flexBtw {
+      margin-bottom: 20px;
+    }
     .image-card-vieux-port {
-    height: 200px;
+      height: 230px;
+    }
+    .image-card-parc-calanques {
+      height: 230px;
+    }
+    #Hosting {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .Bloc-Most-Popular {
+      flex: none;
+      width: 90%;
+      margin-left: 0;
+    }
+    .Accomod-Size {
+      width: 89%;
+    }
+    .flex-size-icons {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .Popular-card-most-two {
+      width: 28%;
+    }
+    .Popular-card-most-three {
+      width: 35%;
+    }
+    .Activity-bloc {
+      flex-direction: column;
+      height: auto;
+    }
+    .more-details-activity {
+      width: 100%;
+    }
+    .Activity-bloc2356 {
+      width: 100%;
+      height: auto;
+    }
   }
-  .blocActivity-2356 {
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
+  @media screen and (max-width: 770px) {
+    .Accomod-Size {
+      height: auto;
+    }
+    .logo {
+      padding-right: 190px;
+    }
+    .flex-size-icons {
+      grid-template-columns: 1fr 1fr;
+    }
+    .Activity-bloc {
+      flex-direction: column;
+      height: auto;
+    }
+    .more-details-activity {
+      width: 100%;
+    }
+    .Activity-bloc2356 {
+      width: 100%;
+      height: auto;
+    }
+    .image-card-parc-calanques
+      .image-card-îles-du-frioul
+      .image-card-notre-dame
+      .image-card-parc-longchamps
+      .image-card-fort-de-pomègue
+      .image-card-vieux-port {
+      height: 200px;
+    }
+    .blocActivity-2356 {
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
 
-  .Hebergement-content-Amina {
-    margin-top: 10%;
-  }
+    .Hebergement-content-Amina {
+      margin-top: 10%;
+    }
 
-  .Hebergement-content-Beach {
-    margin-top: 10%;
-  }
+    .Hebergement-content-Beach {
+      margin-top: 10%;
+    }
 
-  .Hebergement-content-Auberge {
-    margin-top: 10%;
-  }
+    .Hebergement-content-Auberge {
+      margin-top: 10%;
+    }
 
-  .Hebergement-content-cannebière {
-    margin-top: 10%;
-  }
+    .Hebergement-content-cannebière {
+      margin-top: 10%;
+    }
 
-  .Hebergement-content-mouettes {
-    margin-top: 10%;
-  }
+    .Hebergement-content-mouettes {
+      margin-top: 10%;
+    }
 
-  .Hebergement-content-port {
-    margin-top: 10%;
-  }
+    .Hebergement-content-port {
+      margin-top: 10%;
+    }
 
-  .height-footer {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+    .height-footer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    .mrgin-bloc1 {
+      margin-left: 0;
+    }
+    .Popular-card-most-two {
+      width: 39%;
+    }
+    .flexBtw-nav {
+      flex-direction: row;
+      width: 100%;
+    }
   }
-  .mrgin-bloc1 {
-    margin-left: 0;
-  }
-  .Popular-card-most-two {
-    width: 39%;
-  }
-  .flexBtw-nav {
-    flex-direction: row;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-  
-  .sizeLinknav {
-    flex-direction: row;
-  }
-  .title-activity {
-    padding-left: 15px;
-  }
-  .logo-container {
-    width: 100px;
-    float: left;
-    display: flex;
-    flex: auto;
-  }
+  @media screen and (max-width: 600px) {
+    .sizeLinknav {
+      flex-direction: row;
+    }
+    .title-activity {
+      padding-left: 15px;
+    }
+    .logo-container {
+      width: 100px;
+      float: left;
+      display: flex;
+      flex: auto;
+    }
 
-  .flex-size-icons {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+    .flex-size-icons {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
 
-  .logo {
-    padding-right: 282px;
-  }
-  .image-card-parc-calanques {
-    height: 200px;
-  }
-  .sizeLinkone-two {
-    order: 1;
-    width: 100%;
-    margin-left: 0;
-  }
-  .Popular-card-most-sun-one {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 33%;
-  }
+    .logo {
+      padding-right: 282px;
+    }
+    .image-card-parc-calanques {
+      height: 200px;
+    }
+    .sizeLinkone-two {
+      order: 1;
+      width: 100%;
+      margin-left: 0;
+    }
+    .Popular-card-most-sun-one {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 33%;
+    }
 
-  .Popular-card-most-two {
-    width: 26%;
-  }
+    .Popular-card-most-two {
+      width: 26%;
+    }
 
-  .Popular-card-most-three {
-    width: 33%;
-  }
-  .Mobilesize {
-    width: 100%;
-    border-top: none;
-    border-bottom: 3px solid #f2f2f2;
-    padding-bottom: -9px;
-    height: 30px;
-  }
-  .Mobilesize:hover {
-    border-top: 0;
-    border-bottom: 3px solid #0065fc;
-  }
-  .flexBtw-nav {
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-  }
-  .searchborder {
-    width: 320px;
-    border: none;
-  }
-  .ResearchBar {
-    border: 1px solid #f2f2f2;
-  }
+    .Popular-card-most-three {
+      width: 33%;
+    }
+    .Mobilesize {
+      width: 100%;
+      border-top: none;
+      border-bottom: 3px solid #f2f2f2;
+      padding-bottom: -9px;
+      height: 30px;
+    }
+    .Mobilesize:hover {
+      border-top: 0;
+      border-bottom: 3px solid #0065fc;
+    }
+    .flexBtw-nav {
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+    }
+    .searchborder {
+      width: 320px;
+      border: none;
+    }
+    .ResearchBar {
+      border: 1px solid #f2f2f2;
+    }
 
-  .Most-Title-Night-Price {
-    width: 95%;
-  }
+    .Most-Title-Night-Price {
+      width: 95%;
+    }
 
-  .buttonsearch {
-    width: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  .Économy-mobile {
-    margin-right: 5px;
-  }
-  .familly-mobile {
-    margin-right: 0;
-  }
-  .informations {
-    padding-left: 2%;
-  }
-  .filter-text-hover {
-    padding-left: 5px;
-    padding-right: 10px;
-  }
-  .buttonsearch-desktop {
-    display: block;
-  }
-  .mobilenonesearch {
-    display: none;
-  }
-  .title-mobile {
-    padding-left: 5%;
-  }
-  .Mobile-reservia-logo {
-    padding-left: 5%;
-  }
-  .marginfilter {
-    padding-left: 5%;
-  }
-  .Bloc-Most-Popular {
-    border-radius: 0;
-  }
-  .Accomod-Size {
-    background-color: white;
-  }
-  .Activity-bloc {
-    padding: 5%;
-    width: 90%;
-  }
-  .LinkAccomode {
-    padding-bottom: -4px;
-  }
+    .buttonsearch {
+      width: 50px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .Économy-mobile {
+      margin-right: 5px;
+    }
+    .familly-mobile {
+      margin-right: 0;
+    }
+    .informations {
+      padding-left: 2%;
+    }
+    .filter-text-hover {
+      padding-left: 5px;
+      padding-right: 10px;
+    }
+    .buttonsearch-desktop {
+      display: block;
+    }
+    .mobilenonesearch {
+      display: none;
+    }
+    .title-mobile {
+      padding-left: 5%;
+    }
+    .Mobile-reservia-logo {
+      padding-left: 5%;
+    }
+    .marginfilter {
+      padding-left: 5%;
+    }
+    .Bloc-Most-Popular {
+      border-radius: 0;
+    }
+    .Accomod-Size {
+      background-color: white;
+    }
+    .Activity-bloc {
+      padding: 5%;
+      width: 90%;
+    }
+    .LinkAccomod {
+      padding-bottom: -4px;
+    }
 
-   .LinkActivity {
-    padding-left: 10%; 
+    .mobilenonesearch {
+      display: block;
+    }
+
+    .LinkActivity {
+      padding-left: 10%;
+    }
+  }
 }
