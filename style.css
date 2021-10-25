@@ -5,9 +5,10 @@
   src: url(./assets/Raleway/static/Raleway-Medium.ttf);
 }
 
-* {
+body {
   font-family: "Raleway", Sans-serif;
   box-sizing: border-box;
+  max-width: 1600px;
 }
 
 .logo {
@@ -693,7 +694,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-left: 10px; */
+  padding-left: 10px;
 }
 
 /*RESPONSIVE*/
@@ -772,6 +773,7 @@
   .sizeLinkone-two {
     margin-left: 20%;
   }
+
   .Accomod-Size {
     height: auto;
   }
@@ -851,7 +853,6 @@
   }
 
   .flexBtw-nav {
-    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     justify-content: flex-end;
