@@ -1,113 +1,90 @@
 /*NAVIGATION*/
-
 @font-face {
   font-family: "Raleway";
   src: url(./assets/Raleway/static/Raleway-Medium.ttf);
 }
-
-body {
+* {
   font-family: "Raleway", Sans-serif;
   box-sizing: border-box;
-  max-width: 1600px;
 }
-
 .logo {
   flex-direction: row;
 }
-
 .LinkAccomode {
   color: #0065fc;
 }
-
 .LinkActivity {
   color: black;
   margin-top: 3px;
 }
-
 .LinkRegister {
   color: #0065fc;
 }
-
 .SizeLink {
   width: 45%;
 }
-
 .SizeLinkNav {
   width: 100px;
   height: 99px;
 }
-
 .DecorationNo {
   text-decoration: none;
 }
-
 .BorderNav {
   border-top: 2px solid #0065fc;
   width: 110px;
 }
-
 .sizeLinkone-two {
   margin-left: 73%;
 }
-
 .flexBtw {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .flexBtw-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .flexAro {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .Centerflex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .flexHebergement-Activity {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 /* FILTRES */
 .flexAround-filter {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .filtre {
   display: flex;
   align-items: center;
 }
-
 .marginfilter {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-
 .margFiltertitle {
   margin-right: 20px;
 }
-
 .textfilterIcons {
   border: 2px solid #f2f2f2;
   height: 50px;
   border-radius: 25px;
   margin-right: 19px;
 }
-
 .Icons-Text {
   border-radius: 25px;
   width: 52px;
@@ -121,33 +98,27 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .textfilterIcons:hover > .Icons-Text {
   margin-left: -2px;
   color: white;
   background-color: #0065fc;
   cursor: pointer;
 }
-
 .filter-text-hover {
   padding-right: 20px;
   padding-left: 20px;
 }
-
 .flex-fam-economique {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 /*INFO*/
-
 .informations {
   display: flex;
   align-items: center;
   font-family: "raleway";
 }
-
 .icon-info {
   height: 20px;
   width: 20px;
@@ -158,14 +129,12 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .show-more {
   padding-top: 25px;
   padding-left: 2px;
   font-weight: bold;
 }
 /*HEBERGEMENT*/
-
 .Accomod-Size {
   height: 650px;
   flex: 2;
@@ -176,7 +145,6 @@ body {
   margin-top: 25px;
   margin-left: 3px;
 }
-
 .Size-Most-Popular {
   height: 650px;
   margin-left: 32px;
@@ -185,7 +153,6 @@ body {
   background-color: #f2f2f2;
   margin-top: 25px;
 }
-
 .Card-Auberge-Cannebière {
   width: 100%;
   height: 120px;
@@ -214,7 +181,6 @@ body {
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
-
 .Hebergement-content-Auberge {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -232,7 +198,6 @@ body {
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
-
 .Hebergement-content-Amina {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -243,7 +208,6 @@ body {
   margin-top: 23px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-
 .Card-Hostel-Amina {
   width: 100%;
   height: 120px;
@@ -251,13 +215,11 @@ body {
   background-position: center;
   border-radius: 15px 15px 0 0;
 }
-
 .flex-size-icons {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
 .Hebergement-content-cannebière {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -268,7 +230,6 @@ body {
   margin-right: 13px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-
 .Hebergement-content-port {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -298,23 +259,18 @@ body {
   padding-bottom: 6px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-
 .Hebergement-content-cannebière:hover {
   transform: scale(1.1);
 }
-
 .Hebergement-content-port:hover {
   transform: scale(1.1);
 }
-
 .Hebergement-content-mouettes:hover {
   transform: scale(1.1);
 }
-
 .Hebergement-content-Beach:hover {
   transform: scale(1.1);
 }
-
 .Hebergement-content-Auberge:hover {
   transform: scale(1.1);
 }
@@ -328,7 +284,6 @@ body {
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
-
 .image-card-port {
   width: 100%;
   height: 120px;
@@ -336,7 +291,6 @@ body {
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
-
 .image-card-Mouettes {
   width: 100%;
   height: 120px;
@@ -344,7 +298,6 @@ body {
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
-
 .image-card-beach {
   height: 100%;
   background-size: 100%;
@@ -352,7 +305,6 @@ body {
   object-fit: cover;
   width: 100%;
 }
-
 .image-card-Auberge {
   height: 100%;
   background-size: 100%;
@@ -360,7 +312,6 @@ body {
   object-fit: cover;
   width: 100%;
 }
-
 .image-card-Amina {
   width: 100%;
   height: 120px;
@@ -368,7 +319,6 @@ body {
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
-
 .flexcolumnmarg-cannebière {
   margin-top: -10px;
   padding-left: 15px;
@@ -377,22 +327,18 @@ body {
   margin-top: -10px;
   margin-left: 15px;
 }
-
 .flexcolumnmarg-beach {
   margin-left: 15px;
   margin-top: -10px;
 }
-
 .flexcolumnmarg-mouettes {
   margin-top: -10px;
   margin-left: 15px;
 }
-
 .flexcolumnmarg-panier {
   margin-top: -10px;
   margin-left: 15px;
 }
-
 .flexcolumnmarg-port {
   margin-top: -10px;
   margin-left: 15px;
@@ -400,34 +346,27 @@ body {
 .color-star-blue {
   color: #0065fc;
 }
-
 .color-star-grey {
   color: #f2f2f2;
 }
-
 /*MOSTPOPULAR*/
-
 .flex-align-center {
   align-items: center;
   display: flex;
 }
-
 .Flex-Most-Popular {
   font-weight: bold;
 }
-
 .icon-most {
   display: flex;
   margin-left: 100%;
   justify-content: center;
   margin-top: -41px;
 }
-
 .Bloc-Most-Popular {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .Popular-card-most-sun-one {
   background-image: url("./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover;
@@ -436,7 +375,6 @@ body {
   border-radius: 15px 0 0 15px;
   background-position: center;
 }
-
 .Popular-card-most-two {
   background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
   background-size: cover;
@@ -447,7 +385,6 @@ body {
   padding-top: 13px;
   background-position: center;
 }
-
 .Popular-card-most-three {
   background-image: url("./img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
   background-size: cover;
@@ -457,7 +394,6 @@ body {
   border-radius: 15px 0 0 15px;
   background-position: center;
 }
-
 .Most-Title-Night-Price {
   background-color: white;
   margin-top: 47px;
@@ -466,56 +402,44 @@ body {
   padding-top: 3px;
   border-radius: 20px 20px 20px 20px;
 }
-
 .Most-Title-Night-Price:hover {
   transform: scale(1.1);
 }
-
 .more-détails-most-1 {
   padding-top: 2px;
   padding-bottom: 7px;
   padding-left: 20px;
 }
-
 .more-détails-most-2 {
   padding-left: 23px;
   padding-bottom: 4px;
 }
-
 .more-détails-most-3 {
   padding-left: 25px;
   padding-bottom: 2px;
 }
-
 .size-title {
   margin-bottom: 20px;
 }
-
 .size-room {
   margin-bottom: 20px;
 }
-
 /* ACTIVITY */
-
 .height-title {
   height: 70px;
 }
-
 .Activity {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .Activity-bloc {
   height: 600px;
   width: 100%;
 }
-
 .Activity-bloc2356 {
   height: 600px;
   width: 23%;
 }
-
 .image-card-vieux-port {
   background-size: cover;
   width: 100%;
@@ -524,7 +448,6 @@ body {
   background-position: center;
   object-fit: cover;
 }
-
 .image-card-fort-de-pomègues {
   background-size: cover;
   width: 100%;
@@ -533,7 +456,6 @@ body {
   background-position: center;
   object-fit: cover;
 }
-
 .image-card-îles-du-frioul {
   background-size: cover;
   width: 100%;
@@ -542,7 +464,6 @@ body {
   background-position: center;
   object-fit: cover;
 }
-
 .image-card-parc-calanques {
   background-size: cover;
   width: 100%;
@@ -551,7 +472,6 @@ body {
   background-position: center;
   object-fit: cover;
 }
-
 .image-card-notre-dame {
   background-size: cover;
   width: 100%;
@@ -560,7 +480,6 @@ body {
   background-position: center;
   object-fit: cover;
 }
-
 .image-card-parc-longchamps {
   background-size: cover;
   width: 100%;
@@ -569,17 +488,14 @@ body {
   background-position: center;
   object-fit: cover;
 }
-
 .more-details-activity {
   width: 23%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-
 .more-details-activity:hover {
   transform: scale(1.1);
 }
-
 .title-activity {
   display: flex;
   justify-content: flex-start;
@@ -587,57 +503,46 @@ body {
   padding-left: 15px;
   width: 95%;
 }
-
 .blocActivity-2356 {
   width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   margin-bottom: 60px;
 }
-
 .blocActivity-2356:hover {
   transform: scale(1.1);
 }
-
 .flex-Activities {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 /* SEARCH */
-
 .buttonsearch-desktop {
   display: none;
 }
-
 .search-text {
   font-family: raleway;
 }
-
 .Flexsearch {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-
 .flexctre {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .searchborder {
   width: 400px;
   border-radius: 10px;
   border: 0.2px solid #f2f2f2;
 }
-
 .iconSize {
   height: 200px;
   width: 160px;
 }
-
 .backgris {
   height: 50px;
   width: 50px;
@@ -645,7 +550,6 @@ body {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-
 .ResearchBar {
   padding: 20px;
   border: none;
@@ -663,47 +567,36 @@ body {
   cursor: pointer;
   /* border-radius: 0 15px 15px; */
 }
-
 /* FOOTER */
-
 .color-footer {
   background-color: #f2f2f2;
 }
-
 .height-bloc1 {
   height: 150px;
 }
-
 .height-bloc2 {
   height: 150px;
 }
-
 .height-bloc3 {
   height: 150px;
 }
-
 .mrgin-bloc1 {
   margin-left: 10%;
 }
-
 .mrgin-bloc3 {
   margin-right: 10%;
 }
-
 .flexBtw-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
-
 /*RESPONSIVE*/
-
 @media screen and (max-width: 1440px) {
   .sizeLinkone-two {
     margin-left: 70%;
   }
-
   .flex-size-icons {
     min-height: 150px;
   }
@@ -711,7 +604,6 @@ body {
 .Size-Most-Popular {
   min-height: auto;
 }
-
 @media screen and (max-width: 990px) {
   .marginfiltercolumns-mobile {
     flex-direction: column;
@@ -720,15 +612,12 @@ body {
   .flexBtw {
     margin-bottom: 20px;
   }
-
   .image-card-vieux-port {
     height: 230px;
   }
-
   .image-card-parc-calanques {
     height: 230px;
   }
-
   #Hosting {
     flex-direction: column-reverse;
     width: 100%;
@@ -738,68 +627,54 @@ body {
     width: 90%;
     margin-left: 0;
   }
-
   .Accomod-Size {
     width: 89%;
   }
-
   .flex-size-icons {
     grid-template-columns: 1fr 1fr;
   }
-
   .Popular-card-most-two {
     width: 39%;
   }
   .Popular-card-most-three {
     width: 39%;
   }
-
   .Activity-bloc {
     flex-direction: column;
     height: auto;
   }
-
   .more-details-activity {
     width: 100%;
   }
-
   .Activity-bloc2356 {
     width: 100%;
     height: auto;
   }
 }
-
 @media screen and (max-width: 770px) {
   .sizeLinkone-two {
     margin-left: 20%;
   }
-
   .Accomod-Size {
     height: auto;
   }
-
   .logo {
     padding-right: 190px;
   }
-
   .flex-size-icons {
     grid-template-columns: 2fr;
   }
-
   .Activity-bloc {
     flex-direction: column;
     height: auto;
   }
-
   .more-details-activity {
     width: 100%;
   }
-
   .Activity-bloc2356 {
     width: 100%;
     height: auto;
   }
-
   .image-card-parc-calanques
     .image-card-îles-du-frioul
     .image-card-notre-dame
@@ -808,7 +683,6 @@ body {
     .image-card-vieux-port {
     height: 200px;
   }
-
   .blocActivity-2356 {
     margin-bottom: 50px;
     margin-top: 50px;
@@ -843,57 +717,46 @@ body {
     align-items: flex-start;
     padding: 10px;
   }
-
   .mrgin-bloc1 {
     margin-left: 0;
   }
-
   .Popular-card-most-two {
     width: 39%;
   }
-
   .flexBtw-nav {
     flex-direction: row;
     width: 100%;
     justify-content: flex-end;
   }
 }
-
 @media screen and (max-width: 600px) {
   .sizeLinknav {
     flex-direction: row;
   }
-
   .title-activity {
     padding-left: 15px;
   }
-
   .logo-container {
     width: 100px;
     float: left;
     display: flex;
     flex: auto;
   }
-
   .logo {
     padding-right: 282px;
   }
-
   .image-card-parc-calanques {
     height: 200px;
   }
-
   .sizeLinkone-two {
     order: 1;
     width: 100%;
     margin-left: 0;
   }
-
   .Popular-card-most-sun-one {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
   .Mobilesize {
     width: 100%;
     border-top: none;
@@ -910,67 +773,52 @@ body {
     flex-direction: row;
     width: 100%;
   }
-
   .searchborder {
     width: 320px;
     border: none;
   }
-
   .ResearchBar {
     border: 1px solid #f2f2f2;
   }
-
   .buttonsearch {
     width: 50px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-
   .Économy-mobile {
     margin-right: 5px;
   }
-
   .familly-mobile {
     margin-right: 0;
   }
-
   .informations {
     padding-left: 2%;
   }
-
   .filter-text-hover {
     padding-left: 5px;
     padding-right: 10px;
   }
-
   .buttonsearch-desktop {
     display: block;
   }
-
   .mobilenonesearch {
     display: none;
   }
-
   .title-mobile {
     padding-left: 5%;
   }
-
   .Mobile-reservia-logo {
     padding-left: 5%;
   }
-
   .marginfilter {
     padding-left: 5%;
   }
-
   .Bloc-Most-Popular {
     border-radius: 0;
   }
-
   .Accomod-Size {
     background-color: white;
   }
-
   .Activity-bloc {
     padding: 5%;
     width: 90%;
