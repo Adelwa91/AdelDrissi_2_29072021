@@ -854,10 +854,8 @@
   }
 
   .flexBtw-nav {
-    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    justify-content: flex-end;
   }
 }
 
