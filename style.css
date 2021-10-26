@@ -9,6 +9,7 @@ html {
   font-family: "Raleway", Sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
+  margin: 0;
 }
 .logo {
   flex-direction: row;
@@ -16,6 +17,11 @@ html {
 .LinkAccomode {
   color: #0065fc;
 }
+
+.logo-container {
+  margin-right: auto;
+}
+
 .LinkActivity {
   color: black;
   margin-top: 3px;
@@ -565,7 +571,6 @@ html {
   width: 220px;
   font-size: 18px;
   font-weight: bold;
-  border-radius: #f2f2f2;
 }
 .buttonsearch {
   color: white;
@@ -603,9 +608,6 @@ html {
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1440px) {
-  .sizeLinkone-two {
-    margin-left: 70%;
-  }
   .Popular-card-most-two {
     width: 33%;
   }
@@ -755,10 +757,7 @@ html {
     }
     .logo-container {
       width: 100px;
-      float: left;
       display: flex;
-      margin-right: auto;
-      flex: auto;
     }
 
     .flex-size-icons {
@@ -794,7 +793,6 @@ html {
       width: 100%;
       border-top: none;
       border-bottom: 3px solid #f2f2f2;
-      padding-bottom: -9px;
       height: 30px;
     }
     .Mobilesize:hover {
