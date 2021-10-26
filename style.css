@@ -47,7 +47,6 @@ html {
 }
 .flexBtw-nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .flexAro {
@@ -760,6 +759,7 @@ html {
       width: 100px;
       float: left;
       display: flex;
+      margin-right: auto;
       flex: auto;
     }
 
