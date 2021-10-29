@@ -439,6 +439,11 @@ html {
 .height-title {
   height: 70px;
 }
+
+.title-activities {
+  padding: 20px;
+}
+
 .Activity {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -526,6 +531,7 @@ html {
 .flex-Activities {
   display: flex;
   cursor: pointer;
+  padding-left: 15px;
   align-items: center;
   justify-content: space-between;
 }
@@ -640,6 +646,7 @@ html {
       flex-direction: column-reverse;
       width: 100%;
     }
+
     .Bloc-Most-Popular {
       flex: none;
       width: 90%;
@@ -650,6 +657,10 @@ html {
     }
     #filtersContainer {
       flex-wrap: wrap;
+    }
+
+    #filtersContainer h3 {
+      width: 100%;
     }
 
     .flex-size-icons {
@@ -682,6 +693,9 @@ html {
     }
     .flex-size-icons {
       grid-template-columns: 1fr 1fr;
+    }
+    .Activity {
+      margin-bottom: 0;
     }
     .Activity-bloc {
       flex-direction: column;
@@ -733,7 +747,7 @@ html {
     .height-footer {
       flex-direction: column;
       align-items: flex-start;
-      padding: 10px;
+      padding: 45px;
     }
     .mrgin-bloc1 {
       margin-left: 0;
