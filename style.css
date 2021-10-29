@@ -224,6 +224,7 @@ html {
 .flex-size-icons {
   display: grid;
   align-items: center;
+  gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .Hebergement-content-cannebière {
@@ -506,12 +507,15 @@ html {
 }
 .more-details-activity {
   width: 23%;
+  margin: 5px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+
 .more-details-activity:hover {
   transform: scale(1.1);
 }
+
 .title-activity {
   display: flex;
   justify-content: flex-start;
@@ -523,17 +527,19 @@ html {
   width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
 }
+
 .blocActivity-2356:hover {
   transform: scale(1.1);
 }
+
 .flex-Activities {
   display: flex;
   cursor: pointer;
   padding-left: 15px;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
 }
 /* SEARCH */
 .buttonsearch-desktop {
@@ -588,9 +594,6 @@ html {
 .color-footer {
   background-color: #f2f2f2;
 }
-.height-bloc1 {
-  height: 150px;
-}
 .height-bloc2 {
   height: 150px;
 }
@@ -613,7 +616,7 @@ html {
 
 @media screen and (max-width: 1440px) {
   .Popular-card-most-two {
-    width: 33%;
+    width: 30%;
   }
 
   .Popular-card-most-one {
