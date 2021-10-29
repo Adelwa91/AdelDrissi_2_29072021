@@ -4,10 +4,14 @@
   src: url(./assets/Raleway/static/Raleway-Medium.ttf);
 }
 
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body,
 html {
   font-family: "Raleway", Sans-serif;
-  box-sizing: border-box;
   overflow-x: hidden;
   margin: 0;
 }
@@ -615,15 +619,19 @@ html {
 
 @media screen and (max-width: 1440px) {
   .Popular-card-most-two {
-    width: 30%;
-  }
-
-  .Popular-card-most-one {
-    width: 30%;
+    width: 34%;
   }
 
   .Popular-card-most-three {
-    width: 35%;
+    width: 32%;
+  }
+
+  .Popular-card-most-sun-one {
+    width: 31%;
+  }
+
+  .Most-Title-Night-Price {
+    margin-right: 15px;
   }
 
   .flex-size-icons {
@@ -631,7 +639,7 @@ html {
   }
 
   .flex-Activities {
-    gap: 15px;
+    gap: 22px;
     padding-left: 15px;
   }
 
@@ -673,11 +681,16 @@ html {
     .flex-size-icons {
       grid-template-columns: repeat(3, 1fr);
     }
+
+    .Popular-card-most-sun-one {
+      width: 30%;
+    }
+
     .Popular-card-most-two {
-      width: 28%;
+      width: 30%;
     }
     .Popular-card-most-three {
-      width: 35%;
+      width: 30%;
     }
     .Activity-bloc {
       flex-direction: column;
@@ -685,6 +698,11 @@ html {
     }
     .more-details-activity {
       width: 100%;
+      margin-bottom: 55px;
+    }
+
+    .flex-Activities {
+      padding-right: 15px;
     }
 
     .Activity-bloc2356 {
@@ -712,6 +730,7 @@ html {
     }
     .more-details-activity {
       width: 100%;
+      margin-bottom: 55px;
     }
     .Activity-bloc2356 {
       height: auto;
@@ -723,10 +742,6 @@ html {
       .image-card-fort-de-pomègue
       .image-card-vieux-port {
       height: 200px;
-    }
-    .blocActivity-2356 {
-      margin-bottom: 50px;
-      margin-top: 50px;
     }
 
     .Hebergement-content-Amina {
@@ -803,7 +818,7 @@ html {
     }
 
     .Popular-card-most-two {
-      width: 26%;
+      width: 40%;
     }
 
     .Popular-card-most-three {
@@ -869,10 +884,6 @@ html {
     }
     .Accomod-Size {
       background-color: white;
-    }
-    .Activity-bloc {
-      padding: 5%;
-      width: 90%;
     }
 
     .LinkActivity {
