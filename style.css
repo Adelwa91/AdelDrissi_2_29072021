@@ -537,9 +537,7 @@ html {
 .flex-Activities {
   display: flex;
   cursor: pointer;
-  padding-left: 15px;
   align-items: center;
-  gap: 20px;
 }
 /* SEARCH */
 .buttonsearch-desktop {
@@ -631,6 +629,11 @@ html {
     min-height: 150px;
   }
 
+  .flex-Activities {
+    gap: 15px;
+    padding-left: 15px;
+  }
+
   .Size-Most-Popular {
     min-height: auto;
   }
@@ -682,6 +685,7 @@ html {
     .more-details-activity {
       width: 100%;
     }
+
     .Activity-bloc2356 {
       width: 100%;
       height: auto;
@@ -750,7 +754,7 @@ html {
     .height-footer {
       flex-direction: column;
       align-items: flex-start;
-      padding: 45px;
+      padding: 0 2rem;
     }
     .mrgin-bloc1 {
       margin-left: 0;
