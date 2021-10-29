@@ -11,6 +11,7 @@ html {
   overflow-x: hidden;
   margin: 0;
 }
+
 .logo {
   flex-direction: row;
 }
@@ -451,7 +452,7 @@ html {
 }
 .Activity-bloc {
   height: 600px;
-  width: 100%;
+  max-width: 100%;
 }
 .Activity-bloc2356 {
   height: 600px;
@@ -632,6 +633,7 @@ html {
   .flex-Activities {
     gap: 15px;
     padding-left: 15px;
+    padding-right: 15px;
   }
 
   .Size-Most-Popular {
@@ -707,12 +709,12 @@ html {
     .Activity-bloc {
       flex-direction: column;
       height: auto;
+      max-width: 100%;
     }
     .more-details-activity {
       width: 100%;
     }
     .Activity-bloc2356 {
-      width: 100%;
       height: auto;
     }
     .image-card-parc-calanques
